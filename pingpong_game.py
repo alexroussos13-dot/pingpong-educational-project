@@ -12,6 +12,8 @@ def play():
     player1 = Player("paddle.png", 5, 10, 200, pg.K_w, pg.K_s)
     player2 = Player("paddle.png", 5, 660, 200, pg.K_UP, pg.K_DOWN)
 
+    ball = Ball("paddle.png", 4, 350, 250, player1, player2)
+
     game = True
     clock = pg.time.Clock()
     FPS = 60
@@ -24,6 +26,11 @@ def play():
         player2.reset(window)
         player2.events()
 
+        ball.reset(window)
+        ball.update(window)
+
+
+        	
         events = pg.event.get()
         for e in events:
             if e.type == pg.QUIT:
