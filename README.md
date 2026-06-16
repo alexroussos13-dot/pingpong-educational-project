@@ -10,3 +10,5 @@ To play the game:
 
 
 The game should appear in the start menu search bar
+
+!!!If it doesnt run open the pingpong_game.exe through the dist folder once. After that it will work properly.!!!
