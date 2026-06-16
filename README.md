@@ -6,7 +6,7 @@ To play the game:
 
 2.Extract the zip
 
-2.Move the dist folder you downloaded to Program Files (x86)
+3.Move the dist folder you downloaded to Program Files (x86)
 
 
 The game should appear in the start menu search bar
