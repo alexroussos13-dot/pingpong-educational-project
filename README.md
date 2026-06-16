@@ -2,9 +2,11 @@
 
 To play the game:
 
-1.Download the game folder
+1.Download the pingpong_game.zip from Releases
 
-2.Move the folder you downloaded to Program Files (x86)
+2.Extract the zip
+
+2.Move the dist folder you downloaded to Program Files (x86)
 
 
 The game should appear in the start menu search bar
